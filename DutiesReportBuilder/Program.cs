@@ -1,2 +1,9 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+class Program
+{
+    public static void Main()
+    {
+        Company DreamInc = new Company();
+        DreamInc.Import("../input_1.xml");
+        DreamInc.Process();
+    }
+}

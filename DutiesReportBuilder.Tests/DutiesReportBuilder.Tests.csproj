@@ -22,4 +22,8 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\DutiesReportBuilder\DutiesReportBuilder.csproj" />
+  </ItemGroup>
+
 </Project>
